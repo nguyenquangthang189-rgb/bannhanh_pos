@@ -1,0 +1,41 @@
+HƯỚNG DẪN CÀI BANNHANH LÊN MÁY MỚI
+====================================
+
+Yêu cầu: Windows 10 hoặc 11, bản 64-bit. Không cần cài Node.js hay phần mềm nào khác.
+
+1. Chép file BanNhanh-...-win-x64.zip sang máy mới.
+   Nếu tải file về từ Internet, Zalo hoặc email: bấm chuột phải vào file zip,
+   chọn Properties, tích "Unblock", bấm OK trước khi giải nén. Nếu bỏ qua bước này,
+   Windows có thể chặn hoặc hỏi lại mỗi lần chạy.
+
+2. Giải nén vào một thư mục cố định, ví dụ C:\BanNhanh.
+   Không chạy trực tiếp bên trong file zip. Không để trong thư mục Tải về (Downloads)
+   vì dễ bị xóa nhầm.
+
+3. Bấm đúp tao-shortcut.bat để tạo biểu tượng BanNhanh trên Desktop và Start Menu.
+
+4. Bấm đúp biểu tượng BanNhanh. Lần đầu, tạo tài khoản chủ cửa hàng.
+   Phần mềm chạy trong một cửa sổ đen thu nhỏ ở thanh tác vụ. Đóng cửa sổ đó là tắt phần mềm.
+
+Nếu Windows hiện cảnh báo "Windows protected your PC": bấm "More info" rồi "Run anyway".
+Cảnh báo này xuất hiện vì phần mềm không có chữ ký số, không phải do có virus.
+
+
+CHUYỂN DỮ LIỆU TỪ MÁY CŨ SANG
+-----------------------------
+File zip chỉ có phần mềm, không có dữ liệu bán hàng của cửa hàng.
+
+Cách 1: trên máy cũ vào Cài đặt > Sao lưu > Tải bản sao lưu. Trên máy mới, tắt phần mềm,
+  đổi tên file vừa tải thành bannhanh.db, chép vào thư mục data trong thư mục cài
+  (ví dụ C:\BanNhanh\data\bannhanh.db), rồi mở lại phần mềm.
+
+Cách 2: tắt phần mềm trên máy cũ, chép cả thư mục data sang thư mục cài trên máy mới.
+
+Máy in và máy quét được cài riêng trên từng máy, nên cần cài lại trong
+Cài đặt > Máy in và máy quét.
+
+
+CẬP NHẬT PHIÊN BẢN MỚI
+----------------------
+Tắt phần mềm, giải nén bản mới đè lên thư mục cũ. Thư mục data được giữ nguyên.
+Nên tải một bản sao lưu trước khi cập nhật.

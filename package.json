@@ -1,0 +1,18 @@
+{
+  "name": "bannhanh-pos",
+  "version": "1.0.0",
+  "description": "BanNhanh - Phần mềm bán hàng và kế toán cho cửa hàng bán lẻ",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "dependencies": {
+    "@tesseract.js-data/vie": "^1.0.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
